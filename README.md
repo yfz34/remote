@@ -1,33 +1,23 @@
-# 待辦事項網站
+# 遠端點播系統後台
 
 # 關鍵字
 
 - Golang
 - Beego
-- React
-- React-Redux
-- Material-UI
 - RESTful-API
-- JWT
+- Redis (Pub/Sub)
+- RPCX
+- Websocket
 
 # 說明
 
-此專案練習建構待辦清單網站，後端以 beego建構，前端則以 react建構。利用 material-ui的 Grid system製作 RWD響應式網站。
-
-# 預覽
-
-![image](https://github.com/lya79/todo_app/blob/master/01.png)
-![image](https://github.com/lya79/todo_app/blob/master/02.png)
-![image](https://github.com/lya79/todo_app/blob/master/03.png)
-![image](https://github.com/lya79/todo_app/blob/master/04.png)
+此專案練習建構遠端點播系統，後端以 beego建構，前端則以react建構。
 
 # 安裝
 
 STEP 1. 專案 clone至 GOPATH的 src目錄底下
 
 STEP 2. [安裝 beego套件](https://beego.me/)
-
-STEP 3. [安裝 Node.js](https://nodejs.org/en/)
 
 # 附錄
 
