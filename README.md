@@ -25,6 +25,8 @@ STEP 2. [安裝 beego套件](https://beego.me/)
 
 STEP 3. [安裝 Node.js](https://nodejs.org/en/)
 
+STEP 4. [安裝 Redis](https://github.com/MicrosoftArchive/redis)
+
 # 附錄
 
 ## 測試執行後端
