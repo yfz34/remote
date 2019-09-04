@@ -1,0 +1,52 @@
+.loadingOuterHide{
+    display: none;
+}
+.loadingOuter{
+    z-index: 20;
+    width: 100%;
+    min-height: 100%;
+    position: fixed;
+    top: 0;
+    background: #000000ce;
+    border: none;
+    box-shadow: none;
+    margin: 0;
+    text-align: center;
+}
+.loadingInner{
+    position: absolute;
+    text-align: center;
+    top:50%;
+    left:40%;
+    transform:translateY(-50%);
+}
+.loadingContent{
+    padding-top: 8px;
+}
+.loadingText{
+    color:#ffe200e6;
+    font-family: "IsingFontBold";
+    font-size: 110%;
+}
+.loading{
+    margin: 0 auto;
+}
+@media (min-width: 500px) {
+    .loadingContent{
+        padding-top: 10px;
+    }
+    .loadingText{
+        font-size: 120%;
+    }
+}
+@media (min-width: 992px) {
+    .loadingInner{
+        left:45%;
+    }
+    .loadingContent{
+        padding-top: 15px;
+    }
+    .loadingText{
+        font-size: 150%;
+    }
+}
