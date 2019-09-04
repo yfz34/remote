@@ -17,6 +17,7 @@
 此專案練習建構遠端點播系統，後端以 Beego建構，前端則以Reactjs建構。
 
 # 安裝
+STEP 1. [安裝 golang](https://golang.org/)
 
 STEP 1. 專案 clone至 GOPATH的 src目錄底下
 
@@ -43,7 +44,7 @@ $ bee run
 $ cd web
 ```
 
-安裝前端所需套件
+安裝前端Reactjs所需套件
 ```sh
 $ npm install
 ```
